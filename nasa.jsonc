@@ -1,0 +1,193 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo":{
+    "source": "nasa.txt",
+    "color":{
+      "1": "#FFFFFF",
+      "2": "#C01C28",
+      "3": "#1B5FB3"
+    }
+  },
+  "display":{
+    "size":{
+      "binaryPrefix": "si"
+     },
+    //"separator": "-> ",
+    "constants": ["----------------------"],
+    "color": "magenta"
+  },
+  "modules": [
+    "title",
+    "separator",
+    {
+      "type": "custom",
+      "key": "OS",
+      "keyColor": "#C561C8",
+      "format": ""
+    },
+    {
+      "type": "os",
+      "key": "├ Name",
+      "format": "{3}",
+      "keyColor": "#C561C8"
+    },
+    {
+      "type": "host",
+      "key": "├ Host",
+      "format": "{name} ({vendor})",
+      "keyColor": "#C561C8"
+    },
+    {
+      "type": "kernel",
+      "key": "└ Kernel",
+      "format": "{release} {arch}",
+      "keyColor": "#C561C8"
+    },
+    {
+      "type": "custom",
+      "key": "Terminal",
+      "keyColor": "#8672E0"
+    },
+     {
+      "type": "terminal",
+      "key": "├ Name",
+      "keyColor": "#8672E0",
+      "format": "{pretty-name} {#3}[{version}]"
+    },
+    {
+      "type": "shell",
+      "key": "├ Shell",
+      "keyColor": "#8672E0",
+      "format": "{process-name} {#3}[{version}]"
+    },
+    {
+      "type": "terminalfont",
+      "key": "└ Font",
+      "keyColor": "#8672E0",
+      "format": "{name} {#3}[{size}pt]"
+    },
+    {
+      "type": "custom",
+      "key": "DE / WM",
+      "keyColor": "#7283BE"
+    },
+    {
+      "type": "de",
+      "key": "├ DE",
+      "keyColor": "#7283BE",
+      "format": "{pretty-name} {#3}[{version}]"
+    },
+    {
+      "type": "wm",
+      "key": "├ WM",
+      "keyColor": "#7283BE",
+      "format": "{pretty-name} {#3}[{protocol-name}]"
+    },
+    {
+      "type": "wmtheme",
+      "key": "├ WM Theme",
+      "keyColor": "#7283BE",
+      "format": "{result}"
+    },
+    {
+      "type": "theme",
+      "key": "├ Theme",
+      "keyColor": "#7283BE"
+    },
+    {
+      "type": "icons",
+      "key": "├ Icons",
+      "keyColor": "#7283BE"
+    },
+    {
+      "type": "font",
+      "key": "├ Font",
+      "keyColor": "#7283BE"
+    },
+    {
+      "type": "cursor",
+      "key": "└ Cursor",
+      "keyColor": "#7283BE",
+      "format": "{theme} {#3}[{size}pt]"
+    },
+    {
+      "type": "custom",
+      "key": "Processor",
+      "keyColor": "#3777D8"
+    },
+    {
+      "type": "cpu",
+      "key": "├ CPU Names",
+      "keyColor": "#3777D8",
+      "format": "{name}"
+    },
+    {
+      "type": "cpu",
+      "key": "├ Base Frequency",
+      "keyColor": "#3777D8",
+      "format": "{#3}[{freq-base}]"
+    },
+    {
+      "type": "cpu",
+      "key": "└ Max Frequency",
+      "keyColor": "#3777D8",
+      "format": "{#3}[{freq-max}]"
+    },
+    {
+      "type": "custom",
+      "key": "Graphic",
+      "keyColor": "#5A97C3"
+    },
+    {
+      "type": "gpu",
+      "key": "├ GPU",
+      "keyColor": "#5A97C3",
+      "format": "{name} {#3}[{type}]"
+    },
+    {
+      "type": "opengl",
+      "key": "├ OpenGL version",
+      "keyColor": "#5A97C3",
+      "format": "{version}"
+    },
+    {
+      "type": "vulkan",
+      "key": "└ Vulkan",
+      "keyColor": "#5A97C3"
+    },
+    {
+      "type": "custom",
+      "key": "RAM",
+      "keyColor": "#26B0C3"
+    },
+    {
+      "type": "memory",
+      "key": "├ Installed RAM",
+      "keyColor": "#26B0C3",
+      "format": "{used} / {total} ({percentage})"
+    },
+    {
+      "type": "swap",
+      "key": "└ Swap or Extended RAM",
+      "keyColor": "#26B0C3",
+      "format": "{used} / {total} ({percentage})"
+    },
+    {
+      "type": "disk",
+      "key": "Disk",
+      "keyColor": "#AFCDFC"
+    },
+    "break",
+    {
+      "type": "colors",
+      "key": "{#red}C{#yellow}o{#green}l{#blue}o{#magenta}r{#white}s",
+      "symbol": "star"
+    }
+  ]
+}
+// #C561C8
+// #8672E0
+// #7283BE
+// #3777D8
+// #5A97C3
+// #26B0C3
