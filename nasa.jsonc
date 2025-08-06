@@ -12,8 +12,6 @@
     "size":{
       "binaryPrefix": "si"
      },
-    //"separator": "-> ",
-    "constants": ["----------------------"],
     "color": "magenta"
   },
   "modules": [
