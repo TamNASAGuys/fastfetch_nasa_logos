@@ -32,13 +32,13 @@
     {
       "type": "host",
       "key": "├ Host",
-      "format": "{name} ({vendor})",
+      "format": "{name} {#3}[{vendor}]",
       "keyColor": "#C561C8"
     },
     {
       "type": "kernel",
       "key": "└ Kernel",
-      "format": "{release} {arch}",
+      "format": "{release} {#3}[{arch}]",
       "keyColor": "#C561C8"
     },
     {
