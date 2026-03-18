@@ -3,9 +3,9 @@
   "logo":{
     "source": "nasa.txt",
     "color":{
-      "1": "#FFFFFF",
-      "2": "#C01C28",
-      "3": "#1B5FB3"
+      "1": "blue",
+      "2": "red",
+      "3": "white"
     }
   },
   "display":{

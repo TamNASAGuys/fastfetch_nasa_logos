@@ -3,7 +3,7 @@
   "logo":{
     "source": "nasa_worm.txt",
     "color":{
-      "1": "red",
+      "1": "red"
     }
   },
   "display":{
